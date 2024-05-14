@@ -1,35 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T14:33:19.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6FAfKS49BNwRsWO80-rQ" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T15:24:03.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ZxF9lh0TipOFyFT9qBH9" version="24.4.0" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-96" target="3Qd_OOhJAvH-KdeZEQUw-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3Qd_OOhJAvH-KdeZEQUw-96" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="304" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-97" target="3Qd_OOhJAvH-KdeZEQUw-98">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3Qd_OOhJAvH-KdeZEQUw-97" value="Facade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="304" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-98" target="3Qd_OOhJAvH-KdeZEQUw-102">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3Qd_OOhJAvH-KdeZEQUw-98" value="Domain Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="304" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-99" target="3Qd_OOhJAvH-KdeZEQUw-98">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3Qd_OOhJAvH-KdeZEQUw-99" value="Domain Entity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="434" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3Qd_OOhJAvH-KdeZEQUw-100" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="990" y="300" width="60" height="80" as="geometry" />
+          <mxGeometry x="990" y="294" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-101" target="3Qd_OOhJAvH-KdeZEQUw-97">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3Qd_OOhJAvH-KdeZEQUw-101" value="Event Handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="434" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-102" target="3Qd_OOhJAvH-KdeZEQUw-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-102" target="3Qd_OOhJAvH-KdeZEQUw-99">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3Qd_OOhJAvH-KdeZEQUw-102" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="304" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3Qd_OOhJAvH-KdeZEQUw-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-103" target="3Qd_OOhJAvH-KdeZEQUw-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-103" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="300" width="120" height="80" as="geometry" />
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-103" value="HTTP Request" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="294" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Qd_OOhJAvH-KdeZEQUw-105" target="3Qd_OOhJAvH-KdeZEQUw-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-105" value="Message&amp;nbsp;&lt;div&gt;Queue&lt;/div&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="424" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-120" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Service Tier Responsibilities&lt;/h1&gt;&lt;p&gt;Breakdown of service tiers with responsibilities by tier.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-121" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Receive incoming requests&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Data type and shape transformation from request to internal dtos, and from dtos to response shapes&lt;/li&gt;&lt;li&gt;Authentication&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Authorization&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="130" width="145" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-122" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Abstraction and simplification of underlying services, coordinate work across multiple domain services&lt;/li&gt;&lt;li&gt;Transaction management&lt;/li&gt;&lt;li&gt;Unit of Work&lt;/li&gt;&lt;li&gt;Transform domain entities to dtos&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="110" width="145" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-123" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Entity retrieval through repository&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Creation of new domain entity&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Coordination of business logic across multiple domain entities&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="180" width="145" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-124" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Retrieve data from database and populate domain entities&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="817.5" y="230" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-125" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Aggregate root entity&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Business logic for single entity&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Should protect against improper changes and data/state consistency&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="817.5" y="504" width="145" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qd_OOhJAvH-KdeZEQUw-126" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Receive messages from message brokers&lt;/li&gt;&lt;li&gt;Data type and shape transformation from message to dtos&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="504" width="145" height="116" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
